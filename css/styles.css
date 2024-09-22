@@ -1,1 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
 
+
+/*GLOBAL*/
+body {
+    padding-top: 5rem;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+main {
+    padding: 20px;
+}
+main.container-fluid {
+    width: 50%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+nav {
+    margin-bottom: 120px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+button.navbar-toggler{
+margin-right: 10px;
+}
+
+.home_2col {
+    margin-bottom: 20px;
+}
+
+img.dibley {
+    max-width: 100%
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  padding: 10px;
+  grid-gap:.5em;
+ }
+
+.box1 {
+   background-color: Chartreuse;
+   grid-column: 1 / 4;
+   grid-row: 1 / 3;
+   padding: 10px;
+   }
+.box2 {
+   background-color: aqua;
+   grid-column: 1 / 2;
+   grid-row: 3 / 5;  
+   padding: 10px;
+}
+.box3 {
+   background-color: yellow;
+   grid-column: 2 / 4;
+   grid-row: 3;
+   padding: 10px;
+   }
+.box4 {
+   background-color: orange;
+   grid-column: 2;
+   grid-row: 4;  
+   padding: 10px;
+}
+.box5 {
+   background-color: pink;
+   grid-column: 3;
+   grid-row: 4;
+   padding: 10px;
+   }
+.box6 {
+   background-color: Fuchsia;
+   grid-column: 1 / 4;
+   grid-row: 5;  
+   padding: 10px;
+}
