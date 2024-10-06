@@ -53,11 +53,15 @@
 
         // Step one - Create a React element
 
-    const myelement = React.createElement(
-       'h1', 
-        {id: "header", className:"header"},
-        'React Element goes here....
-    );
+const element = React.createElement(
+  'div',
+  { className: 'container' },
+  React.createElement('h1', null, 'Mark Frazier'),
+  React.createElement('img', null, ),
+  React.createElement('p', null, 'This is a React element without JSX.')
+);
+
+ReactDOM.render(element, document.getElementById('root'));
 
         // Step 2: Render the React element
     ReactDOM.render(
