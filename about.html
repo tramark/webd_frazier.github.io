@@ -53,28 +53,21 @@
 
         // Step one - Create a React element
 
-function App() {
-    const myElement = (
-        <div>
-            <h1>Mark Frazier</h1>
-            <img src="images/deer2.jpg>
-            <p>"My name is Mark and I am working towards obtaining my bachelor’s degree in cybersecurity here at Champlain. I am taking this course as part of the college’s Web Programming Certificate to complete the credits I need to graduate in May 2025. I currently work as an Outside Plant Engineer for a major telecommunications company, where I have been employed for twenty-six years. I love cooking on a grill or in my smoker. I cook meats, vegetables, and desserts. I enjoy grilled food and the compliments received from family and friends."</p>
-        </div>
-    );
- 
-
+const element = React.createElement(
+  'div',
+  { className: 'container' },
+  React.createElement('h1', null, 'Mark Frazier'),
+  React.createElement('img', null, {imageUrl}),
+  React.createElement('content', null, 'My name is Mark and I am working towards obtaining my bachelor’s degree in cybersecurity here at Champlain. I am taking this course as part of the college’s Web Programming Certificate to complete the credits I need to graduate in May 2025. I currently work as an Outside Plant Engineer for a major telecommunications company, where I have been employed for twenty-six years. I love cooking on a grill or in my smoker. I cook meats, vegetables, and desserts. I enjoy grilled food and the compliments received from family and friends.')
+);
 
 
         // Step 2: Render the React element
 
         
-    ReactDOM.render(
-        myElement,
-        document.getElementById("root")
-    );
-}
- 
-export default App;
+ReactDOM.render(element, document.getElementById('h1')),
+ReactDOM.render(element, document.getElementById('img')),
+ReactDOM.render(element, document.getElementById('p'));
 
     </script>
 
