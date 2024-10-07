@@ -53,17 +53,28 @@
 
         // Step one - Create a React element
 
-const element = React.createElement(
-  'div',
-  { className: 'container' },
-  React.createElement('h1', null, 'Mark Frazier');
+function App() {
+    const myElement = (
+        <div>
+            <h1>Welcome to GeeksforGeeks!</h1>
+            <img></img>
+            <p></p>
+        </div>
+    );
+ 
+
 
 
         // Step 2: Render the React element
 
         
-   ReactDOM.render(element, document.getElementById('h1')),
-
+    ReactDOM.render(
+        myElement,
+        document.getElementById("root")
+    );
+}
+ 
+export default App;
 
     </script>
 
