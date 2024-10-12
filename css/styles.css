@@ -94,12 +94,9 @@ img.dibley {
  * 2. See the "width vs max-width" section
  * 3. See the "Additional Padding" section
  */
-div.wrapper {
-  margin-right: auto; /* 1 */
-  margin-left:  auto; /* 1 */
-
-  max-width: 960px; /* 2 */
-
-  padding-right: 10px; /* 3 */
-  padding-left:  10px; /* 3 */
+.wrapper {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
