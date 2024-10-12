@@ -90,10 +90,7 @@ img.dibley {
    padding: 10px;
 }
 /**
- * 1. Centers the content. Yes, it's a bit opinionated.
- * 2. See the "width vs max-width" section
- * 3. See the "Additional Padding" section
- */
+
 .contact_form_div {
   height: 300px;
   display: flex;
