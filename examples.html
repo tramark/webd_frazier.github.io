@@ -35,38 +35,42 @@
             <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
             </li>
-                       <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Gallery</a>
+            </li>            
         </ul>
-    </div>
-</nav>
-
-<main role="main" class="container-fluid">
-    <div id="h1"></div>
-    <div id="img"></div>
-    <div id="content"></div>
-
-    <script>
-        const user = {
-            name: 'Mark Frazier',
-            imageUrl: 'images/deer2.jpg',
-            bio: 'My name is Mark and I am working towards obtaining my bachelor’s degree in cybersecurity here at Champlain. I am taking this course as part of the college’s Web Programming Certificate to complete the credits I need to graduate in May 2025. I currently work as an Outside Plant Engineer for a major telecommunications company, where I have been employed for twenty-six years. I love cooking on a grill or in my smoker. I cook meats, vegetables, and desserts. I enjoy grilled food and the compliments received from family and friends.'
-        };
-
-        // Step one - Create a React element
-
-    const div = React.createElement(
-        "h1", null, 'test'
-    ); 
-        
-
-        // Step 2: Render the React element
-
+<main role="main" class="container-fluid"
     
-     ReactDOM.render(div, getElementById('root'));   
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
-    </script>
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
 </main><!-- /.container -->
 
